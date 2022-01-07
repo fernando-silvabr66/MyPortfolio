@@ -1,0 +1,72 @@
+h1 {
+  font-size: 24px;
+  color:blueviolet;
+}
+
+.main-page {
+  position: relative;
+  width: 1440px;
+  height: 4651px;
+  background: #191765;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
+}
+
+.portfolio-owner {
+  position: static;
+  width: 1156px;
+  height: 96px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 105px;
+  text-align: center;
+
+  color: #9391FF;
+}
+
+.objective-header {
+  position: static;
+  width: 1156px;
+  height: 72px;
+  left: 0px;
+  top: 120px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  
+  color: #DFE1E6;
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px 0px;  
+}
+
+.job-description {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  
+  color: #B3BAC5;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;    
+}
