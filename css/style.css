@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #191765;
+}
+
+.header-toolbar {
+  min-height: 4rem;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  color: white;
+  opacity: 1;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.my-logo {
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.my-logo:hover {
+  text-decoration: none;
+}
+
+.my-logo:active {
+  text-decoration: none;
+}
+
+.my-logo:visited {
+  text-decoration: none;
+}
+
+.content-headline-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url("../images/headline_bg.svg");
+  background-repeat: no-repeat;
+  min-height: 40vh;
+}
+
+.content-headline-section > h1 {
+  color: #7d73fc;
+  font-weight: bold;
+  line-height: 72px;
+  font-size: 48px;
+  padding: 1.2rem;
+  font-style: normal;
+  letter-spacing: 0.37px;
+  text-align: center;
+  background-color: transparent;
+  font-family: Roboto, sans-serif;
+}
+
+.content-headline-section > h2 {
+  color: #edecff;
+  font-weight: 500;
+  padding: 1rem;
+  text-align: center;
+  background-color: transparent;
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  font-style: normal;
+}
+
+.content-headline-section > p {
+  color: #c8c8d4;
+  padding: 2rem;
+  text-align: center;
+  line-height: 28px;
+  font-size: 20px;
+  background-color: transparent;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+}
+
+.bars-icons {
+  color: #fff;
+}
+
+.stacks-section {
+  display: flex;
+  flex-direction: row;
+  min-height: 40vh;
+  grid-template-columns: auto auto;
+  padding: 1rem;
+  gap: 10px;
+  background: url("../images/ellipse5.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  background-color: transparent;
+}
+
+.stack-title {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: #9390ff;
+
+  /* padding: 0.6rem 1.2rem 0.6rem 1.2rem; */
+
+  padding: 0.6rem 1.2rem;
+  background-color: transparent;
+}
+
+.skills-list {
+  background-color: transparent;
+}
+
+.skills-items {
+  padding: 1.2rem;
+  background-color: transparent;
+}
+
+.skills-items > li {
+  margin-bottom: 0.4rem;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 24px;
+  color: #f5f5ff;
+  font-family: Roboto, sans-serif;
+  list-style-type: none;
+}
+
+.separation-line {
+  border: 0.2px solid #646369;
+  margin: 25px;
+}
