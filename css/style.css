@@ -55,8 +55,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* background: url("./images/headline_bg.svg"); */
-  background: url("./back.png");
+  background: url("./images/headline_bg.svg");
+  /* background: url("./back.png"); */
   background-repeat: no-repeat;
   min-height: 40vh;
 }
