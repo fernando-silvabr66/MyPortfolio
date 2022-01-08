@@ -9,19 +9,34 @@
 
 <!--- This is an HTML comment in Markdown -->
 
-Learning how to use README file to show project information. 
+Professional personnal portfolio website which showcase my skills and projects as a Web Software Developer.
 
 ## Built With
 
-- HTML, CSS
+- HTML
+- CSS
+- Webhint
+- Stylelint
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
+To get a local copy up and running follow these simple example steps.
+
+### Pre-requisites
+
+- Knowledge on basic html and css
+- Text Editor (VScode, Atom, Sublime text, etc)
+- Basic knowledge of node.js
+
+### Setup
+
+- clone repository using `git clone`
+- run `npm install`
+- run `live server`
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@fernando-silvabr66](https://github.com/fernando-silvabr66)
 - Twitter: [@fsilvabr1](https://twitter.com/fsilvabr1)

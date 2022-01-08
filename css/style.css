@@ -55,8 +55,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: url("./images/headline_bg.svg");
-  /* background: url("./back.png"); */
+  background: url("../images/headline_bg.svg");
   background-repeat: no-repeat;
   min-height: 40vh;
 }
@@ -107,6 +106,9 @@
   font-weight: 500;
   font-style: normal;
   color: #9490ff;
-  padding: 0.6rem 1.2rem 0.6rem 1.2rem;
+
+  /* padding: 0.6rem 1.2rem 0.6rem 1.2rem; */
+
+  padding: 0.6rem 1.2rem;
   background-color: transparent;
 }
