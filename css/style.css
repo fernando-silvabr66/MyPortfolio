@@ -91,17 +91,24 @@
 
 .stacks-section {
   display: flex;
-  flex-direction: row;
+
+  /* flex-direction: row; */
+
   min-height: 40vh;
-  grid-template-columns: auto auto;
+
+  /* grid-template-columns: auto auto; */
+
   padding: 1rem;
-  gap: 10px;
+
+  /* gap: 10px; */
+
   background: url("../images/ellipse5.svg");
   background-repeat: no-repeat;
   background-position: right;
   font-family: Roboto, sans-serif;
-  color:#FFFFFF;
+  color: #fff;
   background-color: transparent;
+  justify-content: center;
 }
 
 .stack-title {
@@ -122,7 +129,7 @@
   background-color: transparent;
 }
 
-.skills-items {  
+.skills-items {
   padding: 1.2rem;
   background-color: transparent;
 }
@@ -160,7 +167,7 @@
   text-decoration: none;
 }
 
-.work-list-section {
+/* .work-list-section {
   display: grid;
   min-height: 50vh;
 }
@@ -213,7 +220,7 @@
   background-color: transparent;
 }
 
-.project-images {
+.project-image {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -297,5 +304,5 @@
 }
 
 .project-button:hover {
-  box-shadow: 1px 8px 16px rgba(125, 115, 252, 0.48);
-}
+  /* box-shadow: 1px 8px 16px rgba(125, 115, 252, 48%); */
+} */
